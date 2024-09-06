@@ -17,6 +17,18 @@ const Nav = () => {
         {routes.map((route) => (
           <NavLinks key={route.id} route={route}></NavLinks>
         ))}
+        <div className="md:flex">
+          <p>
+            <button className="border  py-1 px-2 rounded-md hover:bg-green-700 mr-2 hover:text-white">
+              SignIn
+            </button>
+          </p>
+          <p>
+            <button className="border  py-1 px-2 rounded-md hover:bg-green-700  hover:text-white">
+              SignUp
+            </button>
+          </p>
+        </div>
       </ul>
     </nav>
   );
