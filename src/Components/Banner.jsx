@@ -47,29 +47,29 @@ const Banner = () => {
           Preisschwankungen am grünen Energiemarkt zunutze zu <br />{" "}
           Mindestvertragslaufzeit.
         </p>
-        <span className="text-black mt-2 flex items-center">
+        <span className="text-black mt-2 mb-2 text-2xl flex items-center">
           Mehr erfahren <HiArrowLongRight />
         </span>
         <div className="md:flex gap-2">
           <div className="card bg-yellow-200">
-            <div className="card-body justify-items-start text-black">
+            <div className="card-body justify-items-start pl-2 pr-2 mb-2 text-black">
               <div>
                 {" "}
                 <img src={cardImg} alt="" />
               </div>
               <p className="mt-10">
-                Unabhängig und <br /> transparent.
+                Unabhängig und Ohne <br /> transparent.
               </p>
             </div>
           </div>
           <div className="card bg-gray-400">
-            <div className="card-body justify-items-start text-black">
+            <div className="card-body justify-items-start pl-2 pr-2 text-black">
               <div>
                 {" "}
                 <img src={cardImg2} alt="" />
               </div>
               <p className="mt-10">
-                Unabhängig und <br /> transparent.
+                Ohne versteckte Ohne <br /> Kosten.
               </p>
             </div>
           </div>
