@@ -6,6 +6,9 @@ const PriceOptions = () => {
       id: 1,
       name: "Basic Plan",
       price: 300,
+      image:
+        "https://media.licdn.com/dms/image/v2/C5616AQGNpsNQ463HUA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1668503871819?e=1730937600&v=beta&t=kK0NMrYuSnzEc6yk3CHX5ZXuqShGNT-67MhGMZW3kU0",
+
       features: [
         "Access to gym equipment",
         "Locker room access",
@@ -51,7 +54,7 @@ const PriceOptions = () => {
   ];
 
   return (
-    <div>
+    <div className="mx-16">
       <h1 className="text-center mt-5 mb-5 underline text-white font-extrabold text-5xl">
         GYM Packages
       </h1>

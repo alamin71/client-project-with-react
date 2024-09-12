@@ -1,4 +1,4 @@
-import bannerImage from "../assets/images/banner-image.png";
+import bannerImage from "../assets/images/Banner-img.jpg";
 import cardImg from "../assets/images/document-chart-checkmark.png";
 import cardImg2 from "../assets/images/cash-fast-circle.png";
 import { HiArrowLongRight } from "react-icons/hi2";

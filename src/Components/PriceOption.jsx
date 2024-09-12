@@ -3,10 +3,11 @@ import Feature from "./Feature";
 import { GoPackageDependents } from "react-icons/go";
 
 const PriceOption = ({ option }) => {
-  const { price, name, features } = option;
+  const { image, price, name, features } = option;
 
   return (
     <div className="flex flex-col bg-blue-700 text-white rounded-lg py-2 px-2">
+      <h1>{PriceOption.image}</h1>
       <h1 className="text-center mb-4">
         <span className="text-3xl">{price}</span>
         <span>/Mon</span>
