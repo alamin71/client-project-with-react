@@ -1,0 +1,12 @@
+/* Navbar style */
+.navbar {
+  position: fixed;
+  top: 0;
+  color: white;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 68px; /* Adjust for fixed navbar height */
+  background-color: #f1f1f1;
+}

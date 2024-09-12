@@ -8,20 +8,23 @@ const FooterShowata = ({ footer }) => {
       <h1>{name}</h1>
       <span>{address}</span>
       <div>
-        <ul className="md:flex mr-48">
+        <ul className="flex mr-48">
           <li className="mr-4">
             <a href={facebook} target="_blank" rel="noopener noreferrer">
-              <FaFacebook size={30} />
+              <FaFacebook
+                className="hover:bg-green-700 rounded-full"
+                size={30}
+              />
             </a>
           </li>
           <li className="mr-4">
             <a href={linkedIn} target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={30} />
+              <FaLinkedin className="hover:bg-green-700" size={30} />
             </a>
           </li>
           <li className="mr-4">
             <a href={github} target="_blank" rel="noopener noreferrer">
-              <FaGithubSquare size={30} />
+              <FaGithubSquare className="hover:bg-green-700" size={30} />
             </a>
           </li>
         </ul>
